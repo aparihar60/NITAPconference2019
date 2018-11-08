@@ -23,7 +23,7 @@ header h2{
     margin-left:-400px;
     padding:22px 0;
     position:absolute;
-    width:540px;
+   
 }
 header a.stuts,a.stuts:visited{
     border:none;
@@ -47,8 +47,25 @@ header .stuts span {
     width: 957px;
 }
 #footer {
-    
+    background-color:#212121;
+    box-shadow: 0 -1px 2px #111111;
+    color:#fff;
+    display:block;
+	 height:50px;
  position: fixed;
 bottom: 0;
 width: 100%;
+}
+
+.button {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
